@@ -1,34 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/header'
+import { Routes, Route } from 'react-router-dom';
+import Accueil from './pages/Accueil';
+import About from './pages/About';
+import Production from './pages/Production';
+import Abeilles from './pages/Abeilles';
+import Evenements from './pages/Evenements';
+import Contact from './pages/Contact';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <Header/>
+
+      <main className='md:pt-23 sm:pt-16'>
+        <Routes>
+            <Route path="/" element={<Accueil />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/production" element={< Production />} />
+            <Route path="/abeilles" element={<Abeilles />} />
+            <Route path="/evenements" element={<Evenements />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+      </main>
+  
+  </>
   )
 }
 

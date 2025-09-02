@@ -7,6 +7,7 @@ import Production from './pages/Production';
 import Abeilles from './pages/Abeilles';
 import Evenements from './pages/Evenements';
 import Contact from './pages/Contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
       </main>
+
+      <Footer/>
   
   </>
   )

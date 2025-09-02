@@ -13,7 +13,7 @@ function App() {
     <>
       <Header/>
 
-      <main className='md:pt-23 sm:pt-16'>
+      <main className='pt-10'>
         <Routes>
             <Route path="/" element={<Accueil />} />
             <Route path="/about" element={<About />} />

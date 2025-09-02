@@ -14,7 +14,6 @@ export default function Header() {
             Abeille urpoise
           </Link>
           
-          {/* Bouton du menu mobile */}
           <button 
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-gray-600 focus:outline-none"

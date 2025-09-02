@@ -35,7 +35,7 @@ export default function Hero() {
         <motion.h2 
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0, transition: { duration: 0.8, ease: "easeOut" } }}
-          className="text-5xl font-normal"
+          className="text-5xl font-semibold"
         >
           de votre terroir
         </motion.h2>

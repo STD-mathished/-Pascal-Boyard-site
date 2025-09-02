@@ -32,6 +32,28 @@ export default function Footer() {
           </ul>
         </div>
 
+        {/* Partenaires */}
+        <div>
+          <h3 className="text-white text-lg font-bold mb-4">Nos partenaires</h3>
+          <ul className="space-y-2">
+            <li>
+              <a href="https://ferme-de-coubertin.fr/" className="hover:text-white transition-colors duration-300">
+                La ferme de coubertin
+              </a>
+            </li>
+            <li>
+              <a href="http://www.fermedelevagegrandmaison.fr/" className="hover:text-white transition-colors duration-300">
+                La ferme de la grande maison
+              </a>
+            </li>
+            <li>
+              <a href="https://www.lafermedarmenon.com/" className="hover:text-white transition-colors duration-300">
+                La ferme d'armenon
+              </a>
+            </li>
+          </ul>
+        </div>
+
         {/* Section Mentions Légales */}
         <div>
           <h3 className="text-white text-lg font-bold mb-4">Informations</h3>

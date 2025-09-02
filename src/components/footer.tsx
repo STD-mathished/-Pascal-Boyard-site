@@ -48,7 +48,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://www.lafermedarmenon.com/" className="hover:text-white transition-colors duration-300">
-                La ferme d'armenon
+                La ferme d'armenon  
               </a>
             </li>
           </ul>

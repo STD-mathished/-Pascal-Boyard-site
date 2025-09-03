@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -10,29 +11,29 @@ export default function Footer() {
           <h3 className="text-white text-lg font-bold mb-4">Liens Rapides</h3>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="hover:text-white transition-colors duration-300">
+              <Link to="/" className="hover:text-white transition-colors duration-300">
                 Accueil
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-white transition-colors duration-300">
+              <Link to="/about" className="hover:text-white transition-colors duration-300">
                 Qui sommes-nous?
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/production" className="hover:text-white transition-colors duration-300">
+              <Link to="/production" className="hover:text-white transition-colors duration-300">
                 Production
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/Abeilles" className="hover:text-white transition-colors duration-300">
+              <Link to="/Abeilles" className="hover:text-white transition-colors duration-300">
                 Abeilles
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/evenements" className="hover:text-white transition-colors duration-300">
+              <Link to="/evenements" className="hover:text-white transition-colors duration-300">
                 Evenements
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -53,7 +54,7 @@ export default function Footer() {
             </li>
             <li>
               <a href="https://www.lafermedarmenon.com/" className="hover:text-white transition-colors duration-300">
-                La ferme d'armenon  
+                La ferme d'armenon
               </a>
             </li>
           </ul>
@@ -64,14 +65,14 @@ export default function Footer() {
           <h3 className="text-white text-lg font-bold mb-4">Informations</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <Link to="#" className="hover:text-white transition-colors duration-300">
                 Mentions Légales
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <Link to="#" className="hover:text-white transition-colors duration-300">
                 Politique de Confidentialité
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

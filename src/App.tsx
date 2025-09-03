@@ -6,7 +6,7 @@ import About from './pages/About';
 import Production from './pages/Production';
 import Abeilles from './pages/Abeilles';
 import Evenements from './pages/Evenements';
-import Contact from './pages/Contact';
+//import Contact from './pages/Contact';
 import Footer from './components/footer';
 import NotFound from './pages/Not-found';
 

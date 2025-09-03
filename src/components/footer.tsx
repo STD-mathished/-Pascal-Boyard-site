@@ -10,23 +10,28 @@ export default function Footer() {
           <h3 className="text-white text-lg font-bold mb-4">Liens Rapides</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
+              <a href="/" className="hover:text-white transition-colors duration-300">
                 Accueil
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                Produits
+              <a href="/about" className="hover:text-white transition-colors duration-300">
+                Qui sommes-nous?
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                À Propos
+              <a href="/production" className="hover:text-white transition-colors duration-300">
+                Production
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors duration-300">
-                Contact
+              <a href="/Abeilles" className="hover:text-white transition-colors duration-300">
+                Abeilles
+              </a>
+            </li>
+            <li>
+              <a href="/evenements" className="hover:text-white transition-colors duration-300">
+                Evenements
               </a>
             </li>
           </ul>

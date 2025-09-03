@@ -87,11 +87,11 @@ export default function Footer() {
             </li>
             <li className="flex items-center space-x-2">
               <Phone size={20} />
-              <span>+33 1 23 45 67 89</span>
+              <span>06 13 16 42 59</span>
             </li>
             <li className="flex items-center space-x-2">
               <MapPin size={20} />
-              <span>123 Rue de la Ruche, Ville, France</span>
+              <span>190 Chemin Vert Briis-sous-Forges</span>
             </li>
           </ul>
         </div>

@@ -8,6 +8,7 @@ import Abeilles from './pages/Abeilles';
 import Evenements from './pages/Evenements';
 import Contact from './pages/Contact';
 import Footer from './components/footer';
+import NotFound from './pages/Not-found';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
             <Route path="/production" element={< Production />} />
             <Route path="/abeilles" element={<Abeilles />} />
             <Route path="/evenements" element={<Evenements />} />
-            <Route path="/contact" element={<Contact />} />
+            {/*<Route path="/contact" element={<Contact />} />*/}
+            <Route path="*" element={<NotFound />} />
           </Routes>
       </main>
 

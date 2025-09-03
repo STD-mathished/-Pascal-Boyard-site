@@ -32,7 +32,6 @@ export default function Trouver() {
         viewport={{ once: true, amount: 0.3 }}
         aria-labelledby="trouver-title"
       >
-        {/* Titre pleine largeur */}
         <motion.h2
           id="trouver-title"
           className="text-center text-3xl md:text-5xl font-bold mb-10"
@@ -53,7 +52,6 @@ export default function Trouver() {
           ))}
         </motion.ul>
 
-        {/* Texte final + téléphone */}
         <div className="space-y-2">
           <motion.p
             className="text-2xl md:text-3xl leading-snug"

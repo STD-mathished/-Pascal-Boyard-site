@@ -1,3 +1,13 @@
+import AbeillesNoires from "../components/Abeilles/AbeillesNoires";
+import AutresAbeilles from "../components/Abeilles/AutresAbeilles";
+import Reine from "../components/Abeilles/Reine";
+
 export default function Abeilles() {
-    return <h2>Abeilles</h2>
+    return (
+        <>
+            <Reine/>
+            <AutresAbeilles/>
+            <AbeillesNoires/>
+        </>
+    )
 }

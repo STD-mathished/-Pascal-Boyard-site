@@ -1,3 +1,9 @@
+import Trouver from "../components/Evenements/Trouver";
+
 export default function Evenements() {
-    return <h2>events</h2>
+    return (
+        <>
+            <Trouver/>
+        </>
+    )
 }

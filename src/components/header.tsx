@@ -33,7 +33,7 @@ export default function Header() {
           <Link to="/production" className="text-gray-600 hover:text-yellow-600 font-medium transition-colors duration-300">
             Production
           </Link>
-          <Link to="/abeille" className="text-gray-600 hover:text-yellow-600 font-medium transition-colors duration-300">
+          <Link to="/abeilles" className="text-gray-600 hover:text-yellow-600 font-medium transition-colors duration-300">
             Abeilles
           </Link>
           <Link to="/evenements" className="text-gray-600 hover:text-yellow-600 font-medium transition-colors duration-300">
